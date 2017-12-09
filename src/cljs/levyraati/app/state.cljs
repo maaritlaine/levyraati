@@ -2,16 +2,13 @@
   "Defines the application state atom"
   (:require [reagent.core :as r]))
 
-(defonce app (r/atom {:results []
+(defonce app (r/atom {:all-results {}
+                      :show-results {}
                       :participants :loading ;; list of participants
                       :participant nil ;; the selected participant
 
-                      ;; Loaded result listings keyd by selected filter
-                      :results-by-participant {}
-                      :results-top-three {}
-                      :results-bottom-three {}
-                      :results-greatest-variance {}
-                      :all-results {}
+                      :page :splash
+                      :active-step 1
                       }))
 
 (defn update-state!
@@ -25,4 +22,5 @@
   [update-fn & args]
   (swap! app
          (fn [current-app-state]
+           (js/console.log (str current-app-state))
            (apply update-fn current-app-state args))))

@@ -1,4 +1,4 @@
 {:db {:url "jdbc:postgresql://localhost:5432/widgetshop"
       :username "widgetshop"
       :password ""}
- :http {:port 3004}}
+ :http {:port 3005}}
