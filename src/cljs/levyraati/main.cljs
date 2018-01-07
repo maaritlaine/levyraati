@@ -46,10 +46,10 @@
                   }}
     "Oulun levarihommat"]
 
-   [:div {:style {:background-color (color :pinkA200)
+   [:div {:style {:background-color (color :red600)
                   :height 40
                   :font-size 20
-                  :font-family :Poppins
+                  :font-family :Didact+Gothic
                   :font-weight :bold
                   :text-color (color :white)
                   :padding 5
@@ -79,15 +79,15 @@
 ;;TODO: stuff to refactor here - default function?
 (defn function-by-active-step [active-step app]
   (case active-step
-    0 (results/load-results!)
-    1 (results/load-interesting-artist!)
-    2 (results/load-weird-song!)
-    3 (results/load-best-explanation!)
-    4 (results/load-all-results!)                       ;; TODO: :results-greatest-variance-in-points
-    5 (results/load-all-results!)                       ;; TODO: :results-lest-variance-in-points
-    6 (results/load-bottom-three!)
-    7 (results/load-top-three!)
-    8 (results/load-all-results!)
+    1 (results/load-results!)
+    2 (results/load-interesting-artist!)
+    3 (results/load-weird-song!)
+    4 (results/load-best-explanation!)
+    5 (results/load-all-results!)                       ;; TODO: :results-greatest-variance-in-points
+    6 (results/load-all-results!)                       ;; TODO: :results-lest-variance-in-points
+    7 (results/load-bottom-three!)
+    8 (results/load-top-three!)
+    9 (results/load-all-results!)
     (results/load-results!)
     )
   )
@@ -169,6 +169,7 @@
    [ui/flat-button {:label (forward-button-text (current-page))
                     :on-click (fn [app] (navigate-forward app))}]
                                ;TODO: default
+   ])
 
 (defn splash []
   [:div {:style {:font-size 80
@@ -193,10 +194,10 @@
     [:div "joku muu"])
   )
 
-   ])
 
-(defn canvas [page results]
-  (case page
+
+(defn canvas [current-active-step results]
+  (case (page-by-active-step current-active-step)
     :splash [splash]
     :all-results [result-ui/all-results-page]
     :results-top-three [result-ui/top-three-page results]
@@ -206,6 +207,16 @@
     :results-weirdest-song [result-ui/weird-song-page results]
     :results-greatest-variance-in-points [result-ui/most-variation-in-points-page results]
     :results-lest-variance-in-points [result-ui/least-variation-in-points-page results]
+
+    1 [splash]
+    2 [result-ui/all-results-page]
+    3[result-ui/top-three-page results]
+    4[result-ui/bottom-three-page results]
+    5[result-ui/best-explanation-page results]
+    6[result-ui/interesting-artist-page results]
+    7[result-ui/weird-song-page results]
+    8[result-ui/most-variation-in-points-page results]
+    9 [result-ui/least-variation-in-points-page results]
     [:div "Ei löytyny mitään"]
     )
   )
@@ -223,6 +234,7 @@
  [ui/table-body {:display-row-checkbox false}
   (for [{:keys [ordinal name artist participant] :as item} (get-in app [:show-results])] ;;TODO: Mitähän täällä cartissa olikaan nää
     ^{:key ordinal}
+
     [ui/table-row
      [ui/table-row-column name]
      [ui/table-row-column artist]
@@ -230,7 +242,7 @@
      [ui/table-row-column ordinal]])]]
 
     [navigation-header]
-    ;[canvas :first [1 2 3 4 5]]
+    [canvas (current-active-step) (get-in app [:show-results])]
     ;[testi (current-active-step)]
     [navigation-footer app]
   ]

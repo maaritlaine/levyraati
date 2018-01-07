@@ -22,5 +22,4 @@
   [update-fn & args]
   (swap! app
          (fn [current-app-state]
-           (js/console.log (str current-app-state))
            (apply update-fn current-app-state args))))

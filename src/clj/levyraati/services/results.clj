@@ -3,17 +3,30 @@
             [com.stuartsierra.component :as component]
             [compojure.core :refer [routes GET POST]]
             [clojure.data.json :as json]
+            [clojure.string :refer [split] :as str]
             ))
 
 
 
 (defn results []
   (json/read-str (slurp "resources/results.json")
-                            :key-fn keyword))
+                 :key-fn keyword))
 
 
+;; TODO: funktio toimii mutta tuntuu sekopäiseltä.
 (defn all-results []
-  (results)
+  (let [results (results)
+    new-results (map
+      (fn [res]
+        (assoc res :title (second (split (get res :artist) #" - ")))
+
+  )results)
+    newer-results (map
+    (fn [res]
+      (assoc res :artist (first (split (get res :artist) #" - ")))
+      )new-results)]
+    newer-results )
+
   )
 
 ;; TODO: refactor - take results as a paramter
@@ -64,20 +77,20 @@
                 (publish! http
                           (routes
                             (GET "/results" []
-                                 (transit-response
-                                   (all-results)))
+                              (transit-response
+                                (all-results)))
                             (GET "/interesting" []
-                                 (transit-response
-                                   (interesting-artist)))
+                              (transit-response
+                                (interesting-artist)))
                             (GET "/weird" []
-                                 (transit-response
-                                   (weird-song)))
+                              (transit-response
+                                (weird-song)))
                             (GET "/best" []
-                                 (transit-response
-                                   (best-explanation)))
+                              (transit-response
+                                (best-explanation)))
                             (GET "/bottom-three" []
-                                 (transit-response
-                                   (bottom-three)))
+                              (transit-response
+                                (bottom-three)))
                             (GET "/top-three" []
                               (transit-response
                                 (top-three)))
@@ -85,14 +98,14 @@
                               (transit-response
                                 (all-results)))
                             (GET "/results/participant" [participant]
-                                 (transit-response
-                                   (result-by-participant participant)))
+                              (transit-response
+                                (result-by-participant participant)))
                             (GET "/results/variance" []
-                                 (transit-response
-                                   (all-results)))
+                              (transit-response
+                                (all-results)))
                             (GET "/participants" []
-                                 (transit-response
-                                   (all-results)))
+                              (transit-response
+                                (all-results)))
                             ))))
   (stop [{stop ::routes :as this}]
     (stop)
