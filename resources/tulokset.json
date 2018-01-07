@@ -1,0 +1,462 @@
+[
+    {
+        "participator": "Anna",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "participator": "Antti A",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=yofngSbnUlA",
+        "artist": "Pekko Käppi - Sen jalat oli multaset",
+        "explanation": "Ja kädet saviset",
+        "participator": "Antti K",
+        "janiv": 6,
+        "juhom": 7,
+        "leo": 6,
+        "mari": 8,
+        "markusv": 7,
+        "marko": 6,
+        "niina": 6,
+        "rnkkmki": 6,
+        "riitta": 8,
+        "toni": 9,
+        "ville": 69,
+        "kokonaispisteet": 1.211111111111111,
+        "varianssi": 6.9,
+        "keskiarvo": "#N/A"
+    },
+    {
+        "participator": "Antti S",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=G-3YxlZIhus",
+        "artist": "Stig - IT mies",
+        "explanation": "Ei tarvitse selitystä",
+        "participator": "Aki",
+        "anttik": 6,
+        "janiv": 7,
+        "juhom": 8,
+        "leo": 8,
+        "mari": 6,
+        "markusv": 7.5,
+        "marko": 9,
+        "niina": 11,
+        "petteri": 10,
+        "rnkkmki": 8,
+        "riitta": 8,
+        "toni": 8,
+        "ville": 96.5,
+        "kokonaispisteet": 2.1117424242424248,
+        "varianssi": 8.041666666666666,
+        "keskiarvo": "#N/A"
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=gFLvhKv-Lbo",
+        "artist": "National Lampoon - Deteriorata",
+        "explanation": "Elämme 70-luvun kirkasta tulevaisuutta!",
+        "participator": "Ari",
+        "anttik": 6,
+        "janiv": 7.5,
+        "juhom": 8,
+        "leo": 7,
+        "mari": 6,
+        "markusv": 7,
+        "marko": 6,
+        "niina": 5,
+        "rnkkmki": 5,
+        "riitta": 7,
+        "toni": 9,
+        "ville": 73.5,
+        "kokonaispisteet": 1.5136363636363637,
+        "varianssi": 6.681818181818182,
+        "keskiarvo": 8
+    },
+    {
+        "participator": "Elina",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "participator": "Erno",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "participator": "Heli",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "participator": "Henna",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "participator": "Janika",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=qmsbP13xu6k",
+        "artist": "Mr Oizo, Flat Beat",
+        "explanation": "Daily, lounas, näppäilyä, hyvä meininki jne...",
+        "participator": "Jani V",
+        "anttik": 8,
+        "juhom": 6.5,
+        "leo": 8,
+        "mari": 5,
+        "markusv": 8,
+        "marko": 6,
+        "niina": 5,
+        "rnkkmki": 10,
+        "toni": 7,
+        "ville": 63.5,
+        "kokonaispisteet": 2.6527777777777777,
+        "varianssi": 7.055555555555555,
+        "keskiarvo": 4
+    },
+    {
+        "participator": "Janne",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=IGl-yZHScx8",
+        "artist": "Joulupukin töissä",
+        "explanation": "Hyvä meininki :)",
+        "participator": "Jari H",
+        "anttik": 7,
+        "janiv": 8.5,
+        "juhom": 7,
+        "leo": 7,
+        "mari": 4,
+        "markusv": 8,
+        "marko": 7,
+        "niina": 6,
+        "petteri": 8,
+        "rnkkmki": 7,
+        "riitta": 7,
+        "toni": 7,
+        "ville": 83.5,
+        "kokonaispisteet": 1.2935606060606062,
+        "varianssi": 6.958333333333333,
+        "keskiarvo": 6
+    },
+    {
+        "participator": "Jari L",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "participator": "Jarkko P"
+    },
+    {
+        "participator": "Jarno A",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "participator": "Jarno V",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "participator": "Joonas",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=CWnYIb2lqpo",
+        "artist": "La La Land Soundtrack - Another Day of Sun",
+        "explanation": "Vaikka kaikki ei aina menisi ihan putkeen, on töihin aina mukava tulla",
+        "participator": "Juho L",
+        "anttik": 6,
+        "janiv": 7.5,
+        "leo": 6,
+        "mari": 7,
+        "markusv": 9.5,
+        "marko": 7,
+        "niina": 8,
+        "ville": 51,
+        "kokonaispisteet": 1.4880952380952381,
+        "varianssi": 7.285714285714286,
+        "keskiarvo": 3
+    },
+    {
+        "participator": "Juho M",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=5APlY6tnQCs",
+        "artist": "Uniikki: Pätkätöis",
+        "explanation": "Solitalla on paljon erilaista porukkaa, pätkiä ja pitkiä. Kaikki hyväksytään sellaisina kuin ovat.",
+        "participator": "Kimmo S",
+        "anttik": 7,
+        "janiv": 6.5,
+        "juhom": 5,
+        "leo": 8,
+        "mari": 7,
+        "markusv": 8,
+        "marko": 7,
+        "niina": 5,
+        "petteri": 5,
+        "rnkkmki": 7,
+        "toni": 6,
+        "ville": 71.5,
+        "kokonaispisteet": 1.2499999999999998,
+        "varianssi": 6.5,
+        "keskiarvo": 10
+    },
+    {
+        "url": "https://youtu.be/XjO9eRugvvo",
+        "artist": "Anssi Kela feat. Setämies & Mo Sista: Sykkivä eturauhanen",
+        "explanation": "koska Movember ja tosimiehillä töissä kasvaa naamakarvaa",
+        "participator": "KimmoK",
+        "anttik": 8,
+        "janiv": 7,
+        "juhom": 5,
+        "mari": 4,
+        "markusv": 9,
+        "marko": 8,
+        "niina": 5,
+        "petteri": 5,
+        "toni": 7,
+        "ville": 58,
+        "kokonaispisteet": 3.0277777777777777,
+        "varianssi": 6.444444444444445,
+        "keskiarvo": 12
+    },
+    {
+        "participator": "Leo",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=7PVOqfHsX7s",
+        "artist": "Cledos (feat. DeezyDavid) - Töis",
+        "explanation": "Eiks oo ihan ku meillä? Iloista, itsevarmaa ja aikaansaavaa tekemistä kavereiden kans. ",
+        "participator": "Maarit",
+        "anttik": 5,
+        "janiv": 8,
+        "juhom": 6,
+        "leo": 7,
+        "markusv": 7.5,
+        "marko": 6,
+        "niina": 5,
+        "rnkkmki": 7,
+        "riitta": 8,
+        "toni": 7,
+        "ville": 66.5,
+        "kokonaispisteet": 1.2250000000000003,
+        "varianssi": 6.65,
+        "keskiarvo": 9
+    },
+    {
+        "participator": "Mari",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "participator": "Markku",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "participator": "Markus J",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=vZXKWUPQmJI",
+        "artist": "Nine Inch Nails - Came Back Haunted (Live)",
+        "explanation": "löysällä aasinsillalla biisi itelle ajankohtaisesti teemaan sopien; hyppy olio-ohjelmoinnista funktionaaliseen maailmaan, onko paluuta?",
+        "participator": "Markus S",
+        "anttik": 7,
+        "janiv": 8.5,
+        "juhom": 7,
+        "marko": 6,
+        "niina": 7,
+        "petteri": 5,
+        "tatut": 8,
+        "toni": 7,
+        "ville": 55.5,
+        "kokonaispisteet": 1.1741071428571428,
+        "varianssi": 6.9375,
+        "keskiarvo": 7
+    },
+    {
+        "participator": "Markus V",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "participator": "Marko",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "participator": "Miikka",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=CdKVX45wYeQ",
+        "artist": "David Hasselhoff - Looking for Freedom",
+        "explanation": "Koska vapaus löytyy Solitasta, niin ei tarvitse kuunnella tätä enää.",
+        "participator": "Mikko H",
+        "anttik": 7,
+        "janiv": 7,
+        "juhom": 6,
+        "leo": 5,
+        "mari": 7,
+        "markusv": 7,
+        "petteri": 4,
+        "toni": 6,
+        "ville": 49,
+        "kokonaispisteet": 1.2678571428571428,
+        "varianssi": 6.125,
+        "keskiarvo": 13
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=_Z5-P9v3F8w",
+        "artist": "Justin Bieber - Never Say Never",
+        "explanation": "Koska sanoin joskus, että en koskaan tee tämmösiä töitä. Nyt en enää koskaan sano en koskaan.",
+        "participator": "Niina",
+        "anttik": 6,
+        "janiv": 6,
+        "juhom": 6,
+        "leo": 6,
+        "mari": 7,
+        "markusv": 7,
+        "niina": 7,
+        "riitta": 7.5,
+        "toni": 6,
+        "ville": 58.5,
+        "kokonaispisteet": 0.37499999999999983,
+        "varianssi": 6.5,
+        "keskiarvo": 10
+    },
+    {
+        "participator": "Petteri",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "participator": "RÖNKKÖMÄKI",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=THImeO64esw",
+        "artist": "Prince Royce - Solita",
+        "explanation": "Parhaimmillaan työnteko voi olla kaunista saumatonta tanssia, niinkuin tämä bachata. Plus tietenkin biisin nimi :)",
+        "participator": "Riika",
+        "anttik": 5,
+        "janiv": 5.5,
+        "juhom": 6.5,
+        "leo": 5,
+        "mari": 8,
+        "markusv": 8,
+        "niina": 6,
+        "petteri": 10,
+        "toni": 9,
+        "ville": 63,
+        "kokonaispisteet": 3.3125,
+        "varianssi": 7,
+        "keskiarvo": 5
+    },
+    {
+        "participator": "Riitta",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "participator": "Sari",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=eBShN8qT4lk",
+        "artist": "Beastie Boys - (You gotta) Fight for your right (to party)",
+        "explanation": "meillä on hyvät bileet",
+        "participator": "Tatu T",
+        "anttik": 6,
+        "janiv": 9.5,
+        "juhom": 7,
+        "leo": 9,
+        "mari": 9,
+        "markusv": 8,
+        "niina": 7,
+        "riitta": 8,
+        "toni": 8,
+        "ville": 71.5,
+        "kokonaispisteet": 1.2777777777777777,
+        "varianssi": 7.944444444444445,
+        "keskiarvo": 2
+    },
+    {
+        "participator": "Teemu K",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "participator": "Teemu S",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "participator": "Tiina",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "participator": "Timo",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "participator": "Toni",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=vyOSXRCJlIg",
+        "artist": "Rodrigo y Gabriela - Tamacun",
+        "explanation": "Se on hienoa kun toiset osaa. Pelkistettyä, intohimoista ja rohkeaa <3",
+        "participator": "Topi",
+        "anttik": 8,
+        "janiv": 9,
+        "juhom": 6.5,
+        "leo": 7,
+        "mari": 10,
+        "markusv": 8.5,
+        "niina": 7,
+        "riitta": 10,
+        "ville": 66,
+        "kokonaispisteet": 1.857142857142857,
+        "varianssi": 8.25,
+        "keskiarvo": 1
+    },
+    {
+        "participator": "Tuomas",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "participator": "Turkka",
+        "ville": 0,
+        "varianssi": 0
+    },
+    {
+        "participator": "Ville",
+        "ville": 0,
+        "varianssi": 0
+    }
+]
